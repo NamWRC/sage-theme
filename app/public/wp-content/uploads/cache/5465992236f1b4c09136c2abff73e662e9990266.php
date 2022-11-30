@@ -15,7 +15,7 @@
     };
   }
 
-  var AJAX_URL = "<?php echo admin_url('admin-ajax.php');"\n"; ?>";
+  var AJAX_URL = "<?php echo admin_url('admin-ajax.php');'\n'; ?>";
   var versionJs;
   var scriptVendor = [
     'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'
@@ -34,7 +34,4 @@
   });
 </script>
 
-<?php if($_SERVER['SERVER_PORT'] == '3333'): ?>
-<!-- only run local -->
 <script defer src='<?= \App\asset_path("scripts/app.js"); ?>'></script>
-<?php endif; ?>

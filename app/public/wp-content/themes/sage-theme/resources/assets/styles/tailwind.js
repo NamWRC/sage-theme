@@ -1,21 +1,21 @@
-const configs = require('./config')
-const mode = process.env.npm_lifecycle_event === 'start' ? 'jit' : 'aot'
-console.log('\n Mode: ', mode)
+const configs = require("./config");
+const mode = process.env.npm_lifecycle_event === "start" ? "jit" : "aot";
+console.log("\n Mode: ", mode);
 module.exports = {
   purge: {
     content: [
-      './app/**/*.php',
-      './resources/**/*.php',
-      './resources/**/*.vue',
-      './resources/**/*.js'
-    ]
+      "./app/**/*.php",
+      "./resources/**/*.php",
+      "./resources/**/*.vue",
+      "./resources/**/*.js",
+    ],
   },
   mode,
   darkMode: false,
   theme: {
     fontFamily: {
-      montserrat: ['Montserrat', 'sans-serif'],
-      syncopate: ['Syncopate', 'sans-serif']
+      montserrat: ["Montserrat", "sans-serif"],
+      syncopate: ["Syncopate", "sans-serif"],
     },
 
     spacing: configs.spaces,
@@ -41,32 +41,29 @@ module.exports = {
     zIndex: configs.zindexs,
     inset: configs.insets,
     extend: {
-
       maxHeight: configs.maxHeights,
       transitionDuration: configs.transitionDurations,
       transitionProperty: configs.transitionPropertys,
       transitionTimingFunction: configs.transitionTimingFunctions,
       keyframes: {
         opacity: {
-          'from': { opacity: '0' },
-          'to': { opacity: '1' }
-        }
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
       },
       animation: {
-        opacity: 'opacity 1s ease-in-out'
+        opacity: "opacity 1s ease-in-out",
       },
 
-
-      colors: configs.Colors
-    }
+      colors: configs.Colors,
+    },
   },
   variants: {
     extend: {
-      translate: ['motion-safe'],
-      display: ['responsive', 'hover', 'focus', 'group-hover'],
-      borderRadius: ['hover']
-    }
-
+      translate: ["motion-safe"],
+      display: ["responsive", "hover", "focus", "group-hover"],
+      borderRadius: ["hover"],
+    },
   },
   corePlugins: {
     container: false,
@@ -115,24 +112,24 @@ module.exports = {
     backdropSepia: false,
     isolation: false,
     mixBlendMode: false,
-    backgroundBlendMode: false
+    backgroundBlendMode: false,
   },
   plugins: [
     function ({ addComponents }) {
       addComponents({
-        '.container': {
-          maxWidth: '100%',
-          '@screen lg': {
-            maxWidth: '1016px'
+        ".container": {
+          maxWidth: "100%",
+          "@screen lg": {
+            maxWidth: "1016px",
           },
-          '@screen xl': {
-            maxWidth: '1210px'
+          "@screen xl": {
+            maxWidth: "1210px",
           },
-          '@screen 2xl': {
-            maxWidth: '1394px'
-          }
-        }
-      })
-    }
-  ]
-}
+          "@screen 2xl": {
+            maxWidth: "1394px",
+          },
+        },
+      });
+    },
+  ],
+};

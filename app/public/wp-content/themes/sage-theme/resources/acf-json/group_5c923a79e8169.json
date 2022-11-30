@@ -24,6 +24,15 @@
                     "display": "block",
                     "min": "",
                     "max": ""
+                },
+                "layout_6385653a28fc5": {
+                    "key": "layout_6385653a28fc5",
+                    "name": "mod_twocol",
+                    "label": "Mod twocol",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -49,5 +58,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669632782
+    "modified": 1669686586
 }

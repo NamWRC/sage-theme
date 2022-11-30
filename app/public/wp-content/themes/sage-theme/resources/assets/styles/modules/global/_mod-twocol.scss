@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+.mod-twocol {
+  font-family: "Poppins", sans-serif;
+  --brownish-grey: #666666;
+}
+.line-4 {
+  width: 40%;
+  height: 2px;
+  background-color: #e03116;
+  margin-bottom: 29px;
+}
+.main-tittle h1 {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+.content {
+  color: var(--brownish-grey);
+}
+.info-wraper {
+  @apply flex-col md:flex-col;
+}
+.row-content {
+  @apply flex flex-col md:flex-row justify-between;
+}
+.row-content h1 {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+.info {
+  @apply lg:max-w-[273px] md:w-full leading-[1.17] tracking-[-0.20px];
+}
+.info:nth-child(1) {
+  @apply md:mr-[11%];
+}
