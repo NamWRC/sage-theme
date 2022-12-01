@@ -1,5 +1,5 @@
 <section class="mod-twocol w-full flex justify-center">
-    <div class="flex lg:justify-center w-4/5 lg:flex-row xl:w-[60%] flex-col items-center lg:items-start 2xl:justify-between">
+    <div class="flex lg:justify-center w-4/5 lg:flex-row xl:w-[60%] flex-col items-center lg:items-start">
         <div class="main-tittle lg:max-w-[428px] lg:w-2/5 md:mr-0 lg:mr-[88px] mb-[67px] ">
             <div class="line-4"></div>
             <h1 class="text-h1 w-full text-[36px]">
