@@ -7,7 +7,7 @@
                 Chain, Allowing You to:
             </h1>
         </div>
-        <div class="info-wraper flex w-full lg:w-3/5">
+        <div class="info-wraper flex w-full lg:w-3/5 mt-[7px]">
             <div class="row-content">
                 <div class="info">
                     <h2 class="tittle text-[24px]">Drive Business Growth</h2>
@@ -35,7 +35,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row-content">
+            <div class="row-content mt-[33px]">
                 <div class="info">
                     <h2 class="tittle text-[24px]">Improve Operational efficiencies</h2>
                     <p class="content font-[300] text-[18px] ">
