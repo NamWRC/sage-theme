@@ -1,18 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
-.mod-twocol {
-  font-family: "Poppins", sans-serif;
-  --brownish-grey: #666666;
-}
 .line-4 {
-  @apply w-2/5 h-[2px] bg-primary mb-[29px];
-  width: 40%;
-  height: 2px;
-  background-color: #e03116;
-  margin-bottom: 29px;
-}
-.main-tittle h1 {
-  margin-block-start: 0 !important;
-  margin-block-end: 0 !important;
+  @apply w-2/5 bg-primary;
 }
 .content {
   color: var(--brownish-grey);
@@ -21,15 +8,8 @@
   @apply flex-col md:flex-col;
 }
 .row-content {
-  @apply flex flex-col md:flex-row justify-between  2xl:justify-evenly;
-}
-.row-content h1 {
-  margin-block-start: 0 !important;
-  margin-block-end: 0 !important;
+  @apply flex flex-col md:flex-row justify-between;
 }
 .info {
-  @apply lg:max-w-[273px] md:w-full leading-[1.17] tracking-[-0.20px];
-}
-.info:nth-child(1) {
-  @apply md:mr-[8%];
+  @apply md:w-full;
 }

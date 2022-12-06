@@ -33,6 +33,24 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_638ebf2060814": {
+                    "key": "layout_638ebf2060814",
+                    "name": "mod_nam",
+                    "label": "Mod Nam",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_638edc9e81b07": {
+                    "key": "layout_638edc9e81b07",
+                    "name": "mod_carousel",
+                    "label": "Mod Carousel",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -58,5 +76,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669686586
+    "modified": 1670306974
 }

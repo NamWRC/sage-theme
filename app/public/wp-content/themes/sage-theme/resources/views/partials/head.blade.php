@@ -17,6 +17,9 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" rel="preload" as="script">
   <link href='@asset("scripts/app-mobile.js")' media="(max-width: 991px)" rel="preload" as="script">
   <link href='@asset("scripts/app-desktop.js")' media="(min-width: 992px)" rel="preload" as="script">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap" rel="stylesheet">
   @php wp_head() @endphp
   <link rel="stylesheet" id="sage/font-css" onload="if(media!='screen')media='screen'" href="{{S3_FONT}}" type="text/css" media="print" />
   {!! App::getTrackingCode('in_head') !!}

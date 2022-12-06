@@ -1,12 +1,14 @@
 @layer base {
   body {
     @apply text-base text-black xl:text-lg;
+    font-family: "Poppins", sans-serif;
+    --brownish-grey: #666666;
   }
   html {
     @apply m-0;
   }
   html,
-  body{
+  body {
     @apply overflow-x-hidden bg-gray-200;
   }
   h1,
@@ -16,12 +18,14 @@
 
   h2,
   .h2 {
-    @apply text-h2 font-bold md:text-h2-md;
+    @apply font-bold md:text-h2-md;
+    font-size: 36px;
   }
 
   h3,
   .h3 {
-    @apply text-h3 font-bold md:text-h3-md;
+    @apply font-bold md:text-h3-md;
+    font-size: 24px;
   }
 
   h4,
@@ -51,7 +55,7 @@
   h3,
   h4,
   h5,
-  h6{
+  h6 {
     @apply mb-8;
   }
 
@@ -60,20 +64,23 @@
   ol,
   ul,
   blockquote,
-  figure{
-    margin: 0 0 15px;
+  figure {
+    margin: 0 !important;
+    line-height: 1.17;
+    letter-spacing: -0.2px;
+    color: var(--brownish-grey);
   }
 
   ol,
-  ul{
+  ul {
     @apply block pl-20;
   }
 
-  ol{
+  ol {
     @apply list-decimal;
   }
 
-  ul{
+  ul {
     @apply list-disc;
   }
   p {
