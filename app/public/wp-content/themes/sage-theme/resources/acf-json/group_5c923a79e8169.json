@@ -51,6 +51,15 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_63904bfad921e": {
+                    "key": "layout_63904bfad921e",
+                    "name": "mod_banner",
+                    "label": "Mod Banner",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -76,5 +85,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670306974
+    "modified": 1670401018
 }
