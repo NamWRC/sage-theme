@@ -6,7 +6,7 @@
   @include('partials.loading')
   <div id="wrapper" class="wrapper has-animation">
     @php do_action('get_header') @endphp
-    @include('partials.header')
+    @include('partials.intern')
     <main id="main-content">
       @yield('content')
     </main>

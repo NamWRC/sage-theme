@@ -7,7 +7,7 @@
   <?php echo $__env->make('partials.loading', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
   <div id="wrapper" class="wrapper has-animation">
     <?php do_action('get_header') ?>
-    <?php echo $__env->make('partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <?php echo $__env->make('partials.intern', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <main id="main-content">
       <?php echo $__env->yieldContent('content'); ?>
     </main>

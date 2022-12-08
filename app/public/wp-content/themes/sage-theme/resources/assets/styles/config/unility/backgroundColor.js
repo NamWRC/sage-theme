@@ -1,6 +1,4 @@
-const backgroundColor = {
-
-}
+const backgroundColor = {};
 module.exports = {
-  backgroundColor
-}
+  backgroundColor,
+};
