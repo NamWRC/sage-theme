@@ -45,6 +45,24 @@ class App extends Controller
         return compact('url', 'alt', 'href');
     }
 
+    public static function getBanner()
+    {
+        $banner = get_field('ns_header_banner', ACF_OPTION);
+        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/banner/banner.png';
+        $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+
+    public static function getBgBanner()
+    {
+        $bgbanner = get_field('ns_header_bgbanner', ACF_OPTION);
+        $url = ($bgbanner && $bgbanner['url']) ? $bgbanner['url'] : TEMPLATE_ASSETS_URL . '/images/banner/bgbanner.png';
+        $alt = ($bgbanner && $bgbanner['alt']) ? $bgbanner['alt'] : 'bgbanner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+
     public static function getFooterAddress()
     {
         return get_field('ns_footer_address', ACF_OPTION);
