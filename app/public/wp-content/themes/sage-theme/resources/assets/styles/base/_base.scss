@@ -14,7 +14,7 @@
   }
   h1,
   .h1 {
-    @apply text-h1 font-bold md:text-h1-md;
+    @apply text-h1 font-bold md:text-5xl;
   }
 
   h2,
@@ -89,5 +89,5 @@
 }
 
 a:not(.btn):not(.no-underline) {
-  @apply underline hover:no-underline;
+  @apply text-red text-base m-4;
 }

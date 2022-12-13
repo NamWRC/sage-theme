@@ -1,4 +1,4 @@
-<header id="header" class="module header bg-primary w-full top-0 left-0 fixed z-200 down_lg:overflow-hidden">
+<header id="header" class="module border-b border-blue-100 header bg-primary w-full top-0 left-0 fixed z-200 down_lg:overflow-hidden">
     <div class="container">
         <nav class="row navbar items-center">
             <div

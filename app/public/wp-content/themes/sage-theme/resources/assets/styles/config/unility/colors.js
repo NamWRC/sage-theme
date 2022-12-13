@@ -18,6 +18,7 @@ const Colors = {
     100: "#1d4f91",
     200: "#1e5091",
   },
+  red: "#e03116",
   black: "#000",
   transparent: "transparent",
 };

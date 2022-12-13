@@ -60,6 +60,15 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_6395a1e20f4a4": {
+                    "key": "layout_6395a1e20f4a4",
+                    "name": "mod_threecol",
+                    "label": "Mod Threecol",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -85,5 +94,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670401018
+    "modified": 1670750690
 }

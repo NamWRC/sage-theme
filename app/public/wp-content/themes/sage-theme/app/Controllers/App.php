@@ -54,6 +54,17 @@ class App extends Controller
         return compact('url', 'alt', 'href');
     }
 
+    public static function getIcon()
+    {
+        $icon = get_field('ns_header_icon', ACF_OPTION);
+        $machine = ($icon && $icon['machine']) ? $icon['machine'] : TEMPLATE_ASSETS_URL . '/images/icon/machine.svg';
+        $box = ($icon && $icon['box']) ? $icon['box'] : TEMPLATE_ASSETS_URL . '/images/icon/box.svg';
+        $house = ($icon && $icon['house']) ? $icon['house'] : TEMPLATE_ASSETS_URL . '/images/icon/house.svg';
+        $dotarrow = ($icon && $icon['dotarrow']) ? $icon['dotarrow'] : TEMPLATE_ASSETS_URL . '/images/icon/dotarrow.svg';
+        $alt = ($icon && $icon['alt']) ? $icon['alt'] : 'icon';
+        return compact('machine', 'box', 'house', 'dotarrow', 'alt');
+    }
+
     public static function getBgBanner()
     {
         $bgbanner = get_field('ns_header_bgbanner', ACF_OPTION);
