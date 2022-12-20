@@ -1,7 +1,7 @@
 const Colors = {
   primary: "#202c40",
   green: {
-    100: "#576541",
+    100: "#f1f5f5",
     200: "#495735",
   },
   yellow: "#e0aa2a",
@@ -12,7 +12,7 @@ const Colors = {
   },
   gray: {
     100: "#fcf7ef",
-    200: "#F7F1E7",
+    200: "#707070",
   },
   blue: {
     100: "#1d4f91",

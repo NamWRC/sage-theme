@@ -16,7 +16,7 @@
       </aside>
     @endif
     @php do_action('get_footer') @endphp
-    @include('partials.footer')
+    @include('partials.internfooter')
     @include('partials.javascript')
     @php wp_footer() @endphp
     </div>

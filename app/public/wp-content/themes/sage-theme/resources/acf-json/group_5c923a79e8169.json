@@ -69,6 +69,60 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_6397d5cad188f": {
+                    "key": "layout_6397d5cad188f",
+                    "name": "mod_ilu",
+                    "label": "Mod Ilu",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6397e20dd6f38": {
+                    "key": "layout_6397e20dd6f38",
+                    "name": "mod_certi",
+                    "label": "Mod Certi",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_639833663c43a": {
+                    "key": "layout_639833663c43a",
+                    "name": "mod_threedata",
+                    "label": "Mod Threedata",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6399e3d601f02": {
+                    "key": "layout_6399e3d601f02",
+                    "name": "mod_thelast",
+                    "label": "Mod Thelast",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_639b0f7bacfa1": {
+                    "key": "layout_639b0f7bacfa1",
+                    "name": "mod_trusted",
+                    "label": "Mod Trusted",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_639c667f107f4": {
+                    "key": "layout_639c667f107f4",
+                    "name": "mod_footer",
+                    "label": "Mod Footer",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -94,5 +148,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670750690
+    "modified": 1671194239
 }

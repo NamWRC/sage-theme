@@ -45,6 +45,14 @@ class App extends Controller
         return compact('url', 'alt', 'href');
     }
 
+    public static function getLastSvg()
+    {
+        $last = get_field('ns_header_last', ACF_OPTION);
+        $url = ($last && $last['url']) ? $last['url'] : TEMPLATE_ASSETS_URL . '/images/last/logo.svg';
+        $alt = ($last && $last['alt']) ? $last['alt'] : 'last';
+        return compact('url', 'alt');
+    }
+
     public static function getBanner()
     {
         $banner = get_field('ns_header_banner', ACF_OPTION);
@@ -72,6 +80,74 @@ class App extends Controller
         $alt = ($bgbanner && $bgbanner['alt']) ? $bgbanner['alt'] : 'bgbanner';
         $href = home_url();
         return compact('url', 'alt', 'href');
+    }
+
+    public static function getItemBanner()
+    {
+        $itemBanner = get_field('ns_header_itemBanner', ACF_OPTION);
+        $url = ($itemBanner && $itemBanner['url']) ? $itemBanner['url'] : TEMPLATE_ASSETS_URL . '/images/last/itembanner.png';
+        $alt = ($itemBanner && $itemBanner['alt']) ? $itemBanner['alt'] : 'itemBanner';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+
+    public static function getIlu()
+    {
+        $ilu = get_field('ns_header_ilu', ACF_OPTION);
+        $url = ($ilu && $ilu['url']) ? $ilu['url'] : TEMPLATE_ASSETS_URL . '/images/ilu/ilu.png';
+        $alt = ($ilu && $ilu['alt']) ? $ilu['alt'] : 'ilu';
+        $href = home_url();
+        return compact('url', 'alt', 'href');
+    }
+
+    public static function getCerti()
+    {
+        $certi = get_field('ns_header_certi', ACF_OPTION);
+        $aperity = ($certi && $certi['aperity']) ? $certi['aperity'] : TEMPLATE_ASSETS_URL . '/images/certi/aperity.png';
+        $cba = ($certi && $certi['cba']) ? $certi['cba'] : TEMPLATE_ASSETS_URL . '/images/certi/cba.png';
+        $moder = ($certi && $certi['moder']) ? $certi['moder'] : TEMPLATE_ASSETS_URL . '/images/certi/moder.png';
+        $porvi = ($certi && $certi['porvi']) ? $certi['porvi'] : TEMPLATE_ASSETS_URL . '/images/certi/porvi.png';
+        $salsify = ($certi && $certi['salsify']) ? $certi['salsify'] : TEMPLATE_ASSETS_URL . '/images/certi/salsify.png';
+        $untappd = ($certi && $certi['untappd']) ? $certi['untappd'] : TEMPLATE_ASSETS_URL . '/images/certi/untappd.png';
+        $alt = ($certi && $certi['alt']) ? $certi['alt'] : 'certi';
+        return compact('aperity', 'cba', 'moder', 'porvi', 'salsify', 'untappd', 'alt');
+    }
+
+    public static function getTrust()
+    {
+        $trust = get_field('ns_header_trust', ACF_OPTION);
+        $tt = ($trust && $trust['tt']) ? $trust['tt'] : TEMPLATE_ASSETS_URL . '/images/trust/2t.png';
+        $ab = ($trust && $trust['ab']) ? $trust['ab'] : TEMPLATE_ASSETS_URL . '/images/trust/ab.png';
+        $apb = ($trust && $trust['apb']) ? $trust['apb'] : TEMPLATE_ASSETS_URL . '/images/trust/apb.png';
+        $er = ($trust && $trust['er']) ? $trust['er'] : TEMPLATE_ASSETS_URL . '/images/trust/er.png';
+        $fs = ($trust && $trust['fs']) ? $trust['fs'] : TEMPLATE_ASSETS_URL . '/images/trust/fs.png';
+        $wp = ($trust && $trust['wp']) ? $trust['wp'] : TEMPLATE_ASSETS_URL . '/images/trust/wp.png';
+        $alt = ($trust && $trust['alt']) ? $trust['alt'] : 'certi';
+        return compact('tt', 'ab', 'apb', 'er', 'fs', 'wp', 'alt');
+    }
+
+    public static function getFooterImg()
+    {
+        $footerImg = get_field('ns_header_footerImg', ACF_OPTION);
+        $bg = ($footerImg && $footerImg['bg']) ? $footerImg['bg'] : TEMPLATE_ASSETS_URL . '/images/footer/bgfooter.png';
+        $logo = ($footerImg && $footerImg['logo']) ? $footerImg['logo'] : TEMPLATE_ASSETS_URL . '/images/footer/logo.png';
+        $fb = ($footerImg && $footerImg['fb']) ? $footerImg['fb'] : TEMPLATE_ASSETS_URL . '/images/footer/fb.svg';
+        $ig = ($footerImg && $footerImg['ig']) ? $footerImg['ig'] : TEMPLATE_ASSETS_URL . '/images/footer/ig.svg';
+        $li = ($footerImg && $footerImg['li']) ? $footerImg['li'] : TEMPLATE_ASSETS_URL . '/images/footer/li.svg';
+        $tw = ($footerImg && $footerImg['tw']) ? $footerImg['tw'] : TEMPLATE_ASSETS_URL . '/images/footer/tw.svg';
+        $yt = ($footerImg && $footerImg['yt']) ? $footerImg['yt'] : TEMPLATE_ASSETS_URL . '/images/footer/yt.svg';
+        $alt = ($footerImg && $footerImg['alt']) ? $footerImg['alt'] : 'certi';
+        return compact('bg', 'logo', 'fb', 'ig', 'li', 'tw', 'yt', 'alt');
+    }
+
+    public static function getType()
+    {
+        $type = get_field('ns_header_type', ACF_OPTION);
+        $type1 = ($type && $type['type1']) ? $type['type1'] : TEMPLATE_ASSETS_URL . '/images/type/type1.svg';
+        $type2 = ($type && $type['type2']) ? $type['type2'] : TEMPLATE_ASSETS_URL . '/images/type/type2.svg';
+        $type3 = ($type && $type['type3']) ? $type['type3'] : TEMPLATE_ASSETS_URL . '/images/type/type3.svg';
+        $alt = ($type && $type['alt']) ? $type['alt'] : 'type';
+        return compact('type1', 'type2', 'type3', 'alt');
     }
 
     public static function getFooterAddress()

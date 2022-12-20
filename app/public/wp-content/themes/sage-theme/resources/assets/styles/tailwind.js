@@ -54,7 +54,9 @@ module.exports = {
       animation: {
         opacity: "opacity 1s ease-in-out",
       },
-
+      boxShadow: {
+        "3xl": "0 3px 80px 0px rgba(182, 207, 208, 0.5)",
+      },
       colors: configs.Colors,
     },
   },
