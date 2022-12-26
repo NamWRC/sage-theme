@@ -17,7 +17,9 @@ module.exports = {
       montserrat: ["Montserrat", "sans-serif"],
       syncopate: ["Syncopate", "sans-serif"],
     },
-
+    rotate: {
+      90: "90deg",
+    },
     spacing: configs.spaces,
     maxWidth: configs.maxWidths,
     screens: configs.Screes,

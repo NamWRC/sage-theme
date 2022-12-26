@@ -1,12 +1,13 @@
 const maxHeight = {
-  '0': '0',
-  '0.5': '1px',
-  full: '100%',
-  screen: '100vh',
-  initial: 'initial',
-  'none': 'none',
-  '2k': '2000px'
-}
+  0: "0",
+  0.5: "1px",
+  full: "100%",
+  screen: "100vh",
+  initial: "initial",
+  none: "none",
+  "2k": "2000px",
+  240: "240px",
+};
 module.exports = {
-  maxHeight
-}
+  maxHeight,
+};

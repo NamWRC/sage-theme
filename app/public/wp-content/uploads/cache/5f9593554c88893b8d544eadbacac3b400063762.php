@@ -1,10 +1,10 @@
-<footer class="mod-footer relative w-full md:min-h-[352px] min-h-[411px]">
-    <div class="absolute w-full h-full z-0 h-[110%]">
+<footer class="mod-footer absolute w-full md:min-h-352 min-h-411">
+    <div class="absolute w-full h-full z-0 h-110p">
         <img class="w-full h-full" src="<?php echo App::getFooterImg()['bg']; ?>">
     </div>
-    <div class="container md:left-[15%] md:w-[70%] z-10 absolute bottom-0 w-full flex flex-col items-center md:flex-row md:flex-wrap">
-      <div class="flex flex-col items-center w-full md:max-w-[30%] md:items-start">
-        <div class="flex flex-col w-[226px] my-10">
+    <div class="container mb-3 md:left-15p md:w-70p z-10 absolute bottom-0 w-full flex flex-col items-center md:flex-row md:flex-wrap">
+      <div class="flex flex-col items-center w-full md:max-w-30p md:items-start">
+        <div class="flex flex-col w-226 my-10">
             <img src="<?php echo App::getFooterImg()['logo']; ?>" alt="<?php echo App::getFooterImg()['alt']; ?>">
         </div>
         <div class="flex mb-12">
@@ -15,14 +15,14 @@
             <img class="m-2" src="<?php echo App::getFooterImg()['li']; ?>" alt="<?php echo App::getFooterImg()['alt']; ?>">
         </div>
       </div>
-      <div class="flex flex-col md:flex-row items-center md:flex-wrap-reverse md:justify-end md:w-[70%]">
+      <div class="flex flex-col md:flex-row items-center md:flex-wrap-reverse md:justify-end md:w-70p">
         <div>
             <a href="">ORCHESTRA SITE</a>
             <a href="">ENCOMPASS WEBSITE</a>
             <a href="">HANDOFF WEBSITE</a>
         </div>
         <div>
-            <button class="my-10 border-white border-solid border-4 bg-primary text-white h-[54px] w-[242px] rounded-[27px] banner-button">CONTACT</button>
+            <button class="my-10 border-white border-solid border-4 bg-primary text-white h-27 w-242 rounded-27 banner-button">CONTACT</button>
         </div>
       </div>
       <div >

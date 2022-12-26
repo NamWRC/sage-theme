@@ -1,10 +1,10 @@
 <section class="mod-threecol">
-    <div class="container flex flex-col items-center justify-center max-w-[1104px]">
-        <div class="flex flex-col items-center text-center max-w-[85%] mt-16 mb-16">
+    <div class="container flex flex-col items-center justify-center max-w-1104">
+        <div class="flex flex-col items-center text-center max-w-85p mt-16 mb-16">
             <h2>Enterprise ERP Solutions for Beverage & Food Industry</h2>
             <p>At Encompass, we’re revolutionizing the beverage and food supply chain like no other ERP solution has before. By digitally connecting manufacturers, distributors, and retailers, our ERP SaaS solutions streamline operations, simplify decision making, and equip businesses for success in a fast-changing and unpredictable market.</p>
         </div>
-        <div class="col-contain flex flex-col md:justify-between items-center md:items-start md:flex-row min-h-[479px]">            
+        <div class="col-contain flex flex-col md:justify-between items-center md:items-start md:flex-row min-h-479">            
             <div class="info-col">
                 <div>
                     <img class="info-icon w-40 h-40" src="{!! App::getIcon()['machine'] !!}" alt="{!! App::getIcon()['alt'] !!}">
@@ -14,7 +14,7 @@
                 <a href="">EXPLORE ORCHESTRA</a>
             </div>
             <div>
-                <img class="dot-arrow md:rotate-90 md:mt-12" src="{!! App::getIcon()['dotarrow'] !!}" alt="{!! App::getIcon()['alt'] !!}">
+                <img class="dot-arrow md:mt-12" src="{!! App::getIcon()['dotarrow'] !!}" alt="{!! App::getIcon()['alt'] !!}">
             </div>
             <div class="info-col">
                 <div>
@@ -25,7 +25,7 @@
                 <a href="">EXPLORE ENCOMPASS CLOUD</a>
             </div>
             <div>
-                <img class="dot-arrow md:rotate-90 md:mt-12" src="{!! App::getIcon()['dotarrow'] !!}" alt="{!! App::getIcon()['alt'] !!}">
+                <img class="dot-arrow md:mt-12" src="{!! App::getIcon()['dotarrow'] !!}" alt="{!! App::getIcon()['alt'] !!}">
             </div>
             <div class="info-col">
                 <div>

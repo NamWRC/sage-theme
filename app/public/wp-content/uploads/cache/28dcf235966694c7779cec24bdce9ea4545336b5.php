@@ -1,16 +1,16 @@
-<section class="mod-banner items-center relative min-h-[638px]">
-    <div class="bg-img w-full absolute top-[-75px] h-[110%]">
-        <img class="w-full h-full" src="<?php echo App::getBgBanner()['url']; ?>" alt="<?php echo App::getBgBanner()['alt']; ?>">
+<section class="mod-banner items-center relative min-h-638 mt-30">
+    <div class="bg-img w-full absolute h-638">
+        <img class="h-638 w-full" src="<?php echo App::getBgBanner()['url']; ?>" alt="<?php echo App::getBgBanner()['alt']; ?>">
     </div>
     <div class="relative flex w-full">
         <div class="container z-10 banner-content w-full">
-            <div class="banner-slogan flex flex-col justify-center items-center  max-w-[638px] md:max-w-[40%] text-white md:mt-36">
+            <div class="banner-slogan flex flex-col justify-center items-center text-center md:text-left max-w-638 md:max-w-40p text-white md:mt-66">
                 <h1>Unlock the Power of Connection</h1>
                 <p>Connect & Grow Your Business with the Power of the Encompass Platform</p>
-                <button class=" mt-17 bg-brown-200 h-[54px] w-[242px] rounded-[27px] banner-button">ABOUT US</button>
+                <button class=" mt-17 bg-brown-200 h-27 w-242 rounded-27 banner-button">ABOUT US</button>
             </div>
-            <div class="banner-img min-h-[400px] absolute md:top-20 right-0 max-w-[90%] md:max-w-[55%]">
-                <img class="pt-18.5 xl:p-0 min-w-854 lg:min-w-726 2xl:min-w-[975px]" src="<?php echo App::getBanner()['url']; ?>" alt="<?php echo App::getBanner()['alt']; ?>">
+            <div class="banner-img min-h-400 absolute md:top-20 right-0 max-w-90p md:max-w-55p xl:max-w-872">
+                <img class="pt-18.5 xl:p-0" src="<?php echo App::getBanner()['url']; ?>" alt="<?php echo App::getBanner()['alt']; ?>">
             </div>
         </div>
     </div>

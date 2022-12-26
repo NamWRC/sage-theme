@@ -1,5 +1,4 @@
 <?php $__env->startSection('content'); ?>
-    <div class="h-50"></div>
     <?php while(have_posts()): ?> <?php the_post() ?>
         <?php if(have_rows('c8_templates')): ?>
             <?php

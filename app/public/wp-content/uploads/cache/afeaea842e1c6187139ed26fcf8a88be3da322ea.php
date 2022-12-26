@@ -1,15 +1,15 @@
 <section class="mod-twocol w-full flex justify-center">
-    <div class="flex lg:justify-center w-4/5 lg:flex-row xl:w-[60%] flex-col items-center lg:items-start">
-        <div class="main-tittle lg:max-w-[428px] lg:w-2/5 md:mr-0 lg:mr-[88px] mb-[67px] ">
-            <div class="line-4 h-[2px] mb-[29px]"></div>
+    <div class="flex lg:justify-center w-4/5 lg:flex-row xl:w-3/5 flex-col items-center lg:items-start">
+        <div class="main-tittle lg:max-w-428 lg:w-2/5 md:mr-0 lg:mr-44 mb-34 ">
+            <div class="line-4 h-1 mb-15"></div>
             <h2>
                 The Encompass Platform Seamlessly Connects the Supply
                 Chain, Allowing You to:
             </h2>
         </div>
-        <div class="info-wraper flex w-full lg:w-3/5 mt-[7px] lg:max-w-[634px]">
+        <div class="info-wraper flex w-full lg:w-3/5 mt-4 lg:max-w-634">
             <div class="row-content">
-                <div class="info lg:max-w-[273px] lg:max-w-[634px] md:mr-[8%]">
+                <div class="info lg:max-w-273 lg:max-w-634 md:mr-8p">
                     <h3>Drive Business Growth</h3>
                     <p >
                     Tap into the power of predictive analytics and demand 
@@ -20,7 +20,7 @@
                     food business into new levels of profitability. 
                     </p>
                 </div>
-                <div class="info lg:max-w-[273px] lg:max-w-[634px]">
+                <div class="info lg:max-w-273 lg:max-w-634">
                     <h3>
                         Leverage Real-Time Data for Better
                         Decision-Making
@@ -35,8 +35,8 @@
                     </p>
                 </div>
             </div>
-            <div class="row-content mt-[33px]">
-                <div class="info lg:max-w-[273px] lg:max-w-[634px] md:mr-[8%]">
+            <div class="row-content mt-16">
+                <div class="info lg:max-w-273 lg:max-w-634 md:mr-8p">
                     <h3>Improve Operational efficiencies</h3>
                     <p>
                         Streamline processes and save money by reducing
@@ -47,7 +47,7 @@
                         most optimal outcome.
                     </p>
                 </div>
-                <div class="info lg:max-w-[273px] lg:max-w-[634px]">
+                <div class="info lg:max-w-273 lg:max-w-634">
                     <h3>Enhance Team Dynamics & Employee</h3>
                     <p>
                         When your labor force has the tools they need to

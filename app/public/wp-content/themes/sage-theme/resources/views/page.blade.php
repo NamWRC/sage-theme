@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    <div class="h-50"></div>
     @while (have_posts()) @php the_post() @endphp
         @if (have_rows('c8_templates'))
             @php
