@@ -1,16 +1,15 @@
-<section class="mod-banner items-center relative min-h-638 mt-30">
+<section class="mod-banner items-center relative min-h-638">
     <div class="bg-img w-full absolute h-638">
-        <img class="h-638 w-full" src="{!! App::getBgBanner()['url'] !!}" alt="{!! App::getBgBanner()['alt'] !!}">
+        <img class="h-638 w-full" src="{{ $data->module['bg']->url }}">
     </div>
     <div class="relative flex w-full">
         <div class="container z-10 banner-content w-full">
             <div class="banner-slogan flex flex-col justify-center items-center text-center md:text-left max-w-638 md:max-w-40p text-white md:mt-66">
-                <h1>Unlock the Power of Connection</h1>
-                <p>Connect & Grow Your Business with the Power of the Encompass Platform</p>
+                {!! $data->module['contents'] !!}
                 <button class=" mt-17 bg-brown-200 h-27 w-242 rounded-27 banner-button">ABOUT US</button>
             </div>
             <div class="banner-img min-h-400 absolute md:top-20 right-0 max-w-90p md:max-w-55p xl:max-w-872">
-                <img class="pt-18.5 xl:p-0" src="{!! App::getBanner()['url'] !!}" alt="{!! App::getBanner()['alt'] !!}">
+                <img class="pt-18.5 xl:p-0" src="{{ $data->module['leftbg']->url }}" alt="{!! App::getBanner()['alt'] !!}">
             </div>
         </div>
     </div>
@@ -26,3 +25,6 @@
         </svg>
     </div> -->
 </section>
+{{-- @php
+    var_dump($data);
+@endphp --}}

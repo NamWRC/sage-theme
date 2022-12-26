@@ -18,8 +18,244 @@
             "layouts": {
                 "layout_61cc0a39fec23": {
                     "key": "layout_61cc0a39fec23",
-                    "name": "",
-                    "label": "",
+                    "name": "mod_banner",
+                    "label": "Mod Banner",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a9a0dc8b137",
+                            "label": "BG",
+                            "name": "bg",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_63a9a0f98b138",
+                            "label": "Contents",
+                            "name": "contents",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_63a9a1158b139",
+                            "label": "Leftbg",
+                            "name": "leftbg",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a9a3d0d64ef": {
+                    "key": "layout_63a9a3d0d64ef",
+                    "name": "mod_threecol",
+                    "label": "Mod Threecol",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63a9a688302c1",
+                            "label": "Contents",
+                            "name": "contents",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_63a9a699302c2",
+                                    "label": "Icon",
+                                    "name": "icon",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "medium",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                },
+                                {
+                                    "key": "field_63a9a6d7302c3",
+                                    "label": "Content",
+                                    "name": "content",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
+                                },
+                                {
+                                    "key": "field_63a9a720302c4",
+                                    "label": "Link",
+                                    "name": "link",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_63a9a730302c5",
+                            "label": "Dotarow",
+                            "name": "dotarow",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_63a9a794302c6",
+                            "label": "Contentintro",
+                            "name": "contentintro",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a9b5f1e749f": {
+                    "key": "layout_63a9b5f1e749f",
+                    "name": "mod_certi",
+                    "label": "Mod Certi",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a9a3d0d64ee": {
+                    "key": "layout_63a9a3d0d64ee",
+                    "name": "mod_ilu",
+                    "label": "Mod Ilu",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a9a3cfd64ed": {
+                    "key": "layout_63a9a3cfd64ed",
+                    "name": "mod_thelast",
+                    "label": "Mod Thelast",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63a9b644e74a0": {
+                    "key": "layout_63a9b644e74a0",
+                    "name": "mod_threedata",
+                    "label": "Mod Threedata",
                     "display": "block",
                     "sub_fields": [],
                     "min": "",
@@ -138,6 +374,15 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_63a99ee548312": {
+                    "key": "layout_63a99ee548312",
+                    "name": "mod_trusted",
+                    "label": "Mod Trusted",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -163,5 +408,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671681852
+    "modified": 1672066809
 }
