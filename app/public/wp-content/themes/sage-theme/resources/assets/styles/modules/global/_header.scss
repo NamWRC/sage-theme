@@ -1,3 +1,21 @@
+header p,
+a,
+li,
+ol,
+ul,
+blockquote,
+figure {
+  margin: 0 !important;
+  line-height: 1.17;
+  letter-spacing: -0.2px;
+  // list-style: none !important;
+  @apply text-white #{!important};
+}
+
+.menu-item {
+  @apply no-underline #{!important};
+}
+
 .pin-header {
   @apply bg-primary;
 }

@@ -23,7 +23,7 @@
 
             <div class="col w-full lg:w-4/5 navbar-collapse main-menu flex flex-col justify-between" id="main-menu"
                 data-module="menu">
-                <ul
+                {{-- <ul
                     class="main-menu-ul navbar-nav list-none flex mb-0 p-0 text-white flex-col text-inherit
         lg:flex-row lg:justify-end">
                     <li class="menu-item mb-0 ">
@@ -38,7 +38,7 @@
                     <li class="menu-item mb-0">
                         <a class="block py-9 lg:p-9 no-underline" href="#">CONTACT US</a>
                     </li>
-                </ul>
+                </ul> --}}
                 {!! App::getMainNav() !!}
             </div>
         </nav>

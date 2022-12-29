@@ -1,26 +1,26 @@
 @layer components {
-  .col{
+  .col {
     @apply px-8;
   }
-  .row{
+  .row {
     @apply flex flex-wrap -mx-8;
   }
-  .bg{
+  .bg {
     @apply bg-no-repeat bg-top bg-cover;
   }
   .container {
     @apply mx-auto px-8 w-full;
   }
 
-  .transform-middle{
+  .transform-middle {
     top: 50%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
   }
-  .transform-center{
+  .transform-center {
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
   }
-  .transform-center-middle{
+  .transform-center-middle {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -38,12 +38,12 @@
   }
   a:not(.btn):not(.no-underline) {
     color: inherit;
-    @apply underline hover:no-underline;
+    @apply my-20 #{!important};
   }
 }
 
 .last-mb-none {
-  *:last-child{
+  *:last-child {
     @apply mb-0;
   }
 }

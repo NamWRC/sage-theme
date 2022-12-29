@@ -1,30 +1,16 @@
 <section class="mod-banner items-center relative min-h-638">
-    <div class="bg-img w-full absolute h-638">
-        <img class="h-638 w-full" src="{{ $data->module['bg']->url }}">
+    <div class="bg-img w-full absolute h-full">
+        <img class="h-full w-full" src="{{ $data->module['bg']->url }}">
     </div>
-    <div class="relative flex w-full">
-        <div class="container z-10 banner-content w-full">
-            <div class="banner-slogan flex flex-col justify-center items-center text-center md:text-left max-w-638 md:max-w-40p text-white md:mt-66">
+    <div class="relative flex w-full justify-end">
+        <div class="flex flex-wrap md:flex-no-wrap w-full z-10 banner-content lg:w-4/5 justify-between mt-35">
+            <div class="banner-slogan w-full flex flex-col items-center md:items-start justify-center text-center lg:text-left lg:max-w-40p text-white">
                 {!! $data->module['contents'] !!}
-                <button class=" mt-17 bg-brown-200 h-27 w-242 rounded-27 banner-button">ABOUT US</button>
+                <button class=" mt-17 bg-red hover:bg-brown-200 h-27 w-242 rounded-27 banner-button">ABOUT US</button>
             </div>
-            <div class="banner-img min-h-400 absolute md:top-20 right-0 max-w-90p md:max-w-55p xl:max-w-872">
+            <div class="banner-img w-full md:min-w-490 min-h-400 lg:w-1/2 min-w-872 lg:max-w-55p flex justify-end">
                 <img class="pt-18.5 xl:p-0" src="{{ $data->module['leftbg']->url }}" alt="{!! App::getBanner()['alt'] !!}">
             </div>
         </div>
     </div>
-    <!-- <div class="flex mt-[-400px] min-h-[850px] ">
-        <svg class="z-0 absolute" width="100%" height="857.7px" viewBox="0 0 500 180">
-            <path d="M0,200 C150,80 350,230 500,90 L500,00 L0,0 Z" style="stroke: none; fill:#202c40; opacity:0.5"></path>
-        </svg>
-        <svg class="z-0 absolute" width="100%" height="857.7px" viewBox="0 0 500 180">
-            <path d="M0,170 C150,180 350,150 500,90 L500,00 L0,0 Z" style="stroke: none; fill:#202c40; opacity:0.5"></path>
-        </svg>
-        <svg class="z-0 absolute" width="100%" height="857.7px" viewBox="0 0 500 180">
-            <path d="M0,180 C150,110 350,180 500,90 L500,00 L0,0 Z" style="stroke: none; fill:#202c40;"></path>
-        </svg>
-    </div> -->
 </section>
-{{-- @php
-    var_dump($data);
-@endphp --}}

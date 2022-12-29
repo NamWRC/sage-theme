@@ -4,6 +4,9 @@
 .mod-thelast a {
   @apply p-15 pt-0 m-0 #{!important};
 }
+.mod-thelast #read {
+  @apply text-red #{!important};
+}
 .mod-thelast h2,
 .mod-thelast h3 {
   @apply pt-15 #{!important};
